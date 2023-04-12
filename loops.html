@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <script>
+        //=======break=========
+        for(let x=0; x<50;x++){
+            if(x == 3){
+                break;
+            }
+            console.log(x);
+        }
+        // ========continue========
+        for(let y=0;y<20;y++){
+            if(y%2 == 0){ 
+                continue;
+            }
+            console.log(y);
+        }
+        // =====while loop
+        let xd = 0;
+        while (xd < 20) {
+            console.log(xd);
+           xd= xd+4;
+            
+        }
+        // ======do while loop=======
+        let xd1 = 0;
+        do{
+            console.log(xd1);
+            xd1=xd1+4;
+        }
+        while(xd<20);
+
+        // 
+        let md = 200;
+        switch (md) {
+            case 100:
+                console.log("i am 100");
+                
+                break;
+            case 200:
+            console.log("i am 200");
+            
+            break;
+            case 300:
+            console.log("i am 300");
+            
+            break;
+        
+            default:
+                console.log(" not defind");
+                break;
+        }
+
+        
+
+
+
+       
+        // let i = 0;
+        // do{
+        //     i += 1;
+        //     i++;
+        //     console.log(i)
+        // }while(i<30)
+
+
+         </script>
+</body>
+</html>
